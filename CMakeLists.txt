@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.25)
+project(Loops)
+
+set(CMAKE_CXX_STANDARD 23)
+
+add_executable(Loops main.cpp)
