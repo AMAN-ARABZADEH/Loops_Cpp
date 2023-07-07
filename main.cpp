@@ -93,23 +93,29 @@ int main() {
 
 
 
-
+// Loop to display a menu and process user's choice
+/*
+ * This code presents a menu to the user and allows them to select different options (1-5) to perform various arithmetic operations (addition, multiplication, subtraction, division) or exit the program.
+ * The switch statement handles the user's choice and executes the corresponding code block for the chosen operation.
+ * If an invalid choice is entered, a default case is triggered to inform the user and prompt them to try again.
+ * The loop continues until the user chooses to exit the program (choice 5).
+ *
+ */
     int choice;
-
     do {
         // Display menu options
         std::cout << "Menu:" << std::endl;
-        std::cout << "1. Add numbers" << std::endl;
-        std::cout << "2. Multiply numbers" << std::endl;
-        std::cout << "3. Subtract numbers" << std::endl;
-        std::cout << "4. Divide numbers" << std::endl;
-        std::cout << "5. Exit" << std::endl;
+        std::cout << "1. Add numbers" << std::endl;         // Perform addition
+        std::cout << "2. Multiply numbers" << std::endl;    // Perform multiplication
+        std::cout << "3. Subtract numbers" << std::endl;    // Perform subtraction
+        std::cout << "4. Divide numbers" << std::endl;      // Perform division
+        std::cout << "5. Exit" << std::endl;                // Exit the program
         std::cout << "Enter your choice: ";
 
         // Read user's choice
         std::cin >> choice;
 
-        // Process user's choice
+        // Process user's choice using a switch statement
         switch (choice) {
             case 1: {
                 // Addition
@@ -203,7 +209,7 @@ int main() {
 
     // Loop Algorithms
 
-    // Searching for an element in a vector
+    // Searching for an element in a vector, linear search
     std::cout << "Loop Algorithm - Searching for an element in a vector: ";
     std::vector<int> numbers1 = {10, 20, 30, 40, 50};
     int target = 300;
