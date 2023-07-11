@@ -31,6 +31,11 @@ g++ main.cpp -o main
 ./main
 
 # Follow the instructions and observe the output of each example to understand the concepts and usage of loops.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 ## Contributing
 Contributions are welcome! If you have additional examples or improvements to the existing ones, feel free to submit a pull request. 
 Please ensure that your code adheres to the existing coding style and includes appropriate comments for clarity.
